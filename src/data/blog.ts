@@ -66,3 +66,4 @@ async function getAllPosts(dir: string) {
 export async function getBlogPosts() {
   return getAllPosts(path.join(process.cwd(), "content"));
 }
+
