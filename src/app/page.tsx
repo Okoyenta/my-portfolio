@@ -211,6 +211,12 @@ export default function Page() {
                   className="text-blue-500 hover:underline"
                 >
                   with a direct question on twitter
+                </Link>{" "} or reach on email {" "}
+                <Link
+                  href={DATA.contact.social.Gmail.url}
+                  className="text-blue-500 hover:underline"
+                >
+                  {DATA.contact.email}  
                 </Link>{" "}
                 and I&apos;ll respond.
                 {/* whenever I can. I will ignore all

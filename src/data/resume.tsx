@@ -3,7 +3,7 @@ import { Icons } from "@/components/icons";
 export const DATA = {
   name: "Evaristus Okoyenta",
   initials: "OE",
-  url: "https://www.google.com/maps/place/lagos",
+  url: "https://okoyenta.vercel.app/",
   location: "lagos, Nigeria",
   description:
      "A Software Engineer, Simplifying Tasks with Intelligent Automation",
@@ -47,10 +47,11 @@ export const DATA = {
         url: "https://x.com/codeleave/",
         icon: Icons.x,
       },
-      // Youtube: {
-      //   url: "https://youtube.com/c/dillionverma",
-      //   icon: Icons.youtube,
-      // },
+      Gmail: {
+        url: "mailto:okoyentaeva@gmail.com",
+        icon: Icons.globe,
+      },
+      
     },
   },
 
